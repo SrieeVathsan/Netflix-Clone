@@ -1,0 +1,21 @@
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  background-color: #111;
+}
+
+.feature-box {
+  background-color: #222;
+  padding: 20px;
+  width: 250px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.feature-box h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
