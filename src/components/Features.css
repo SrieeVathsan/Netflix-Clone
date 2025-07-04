@@ -1,10 +1,20 @@
 .features {
+  padding: 40px 20px;
+  background-color: #111;
+  text-align: center;
+}
+
+.features-title {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.features-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding: 40px 20px;
-  background-color: #111;
 }
 
 .feature-box {
