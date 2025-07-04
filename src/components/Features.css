@@ -7,13 +7,13 @@
 .features-title {
   font-size: 1.8rem;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .features-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   gap: 20px;
 }
 

@@ -43,7 +43,7 @@ function FAQ() {
 
   return (
     <section className="faq">
-      <h2>Frequently Asked Questions</h2>
+      <h2 className="faq-title">Frequently Asked Questions</h2>
       {faqData.map((item, index) => (
         <div key={index} className="faq-item" onClick={() => toggleFAQ(index)}>
           <div className="faq-question">{item.question}</div>
