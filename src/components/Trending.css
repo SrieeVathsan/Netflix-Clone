@@ -10,11 +10,37 @@
   color: #fff;
 }
 
+.scroll-buttons {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.scroll-btn {
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: background 0.2s;
+}
+
+.scroll-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
 .trending-list {
   display: flex;
   gap: 20px;
   overflow-x: auto;
   padding-bottom: 10px;
+}
+
+.trending-list::-webkit-scrollbar {
+  display: none;                 /* Chrome, Safari */
 }
 
 .trending-item {

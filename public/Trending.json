@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Avengers: Endgame",
+    "img": "/endgame.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Avengers: Infinity War",
+    "img": "/infinitywar.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Spider-Man: No Way Home",
+    "img": "/spiderman.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Captain America: The Winter Soldier",
+    "img": "/captainamerica.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Iron Man",
+    "img": "/ironman.jpg"
+  }
+]
