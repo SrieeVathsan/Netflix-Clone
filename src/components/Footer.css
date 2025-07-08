@@ -1,16 +1,16 @@
 .footer {
   background-color: #111;
-  padding: 60px 20px; /* increased from 40px */
+  padding: 60px 20px;
   color: #aaa;
   text-align: center;
 }
 
 .footer-signup {
-  margin-bottom: 50px; /* increased */
+  margin-bottom: 50px;
 }
 
 .footer-heading {
-  font-size: 1.6rem; /* increased from 1.2rem */
+  font-size: 1.6rem;
   margin-bottom: 25px;
   color: white;
 }
@@ -24,7 +24,7 @@
 
 .footer-form input {
   padding: 16px;
-  width: 300px; /* wider */
+  width: 300px;
   border: none;
   border-radius: 4px;
   font-size: 1rem;
@@ -42,7 +42,7 @@
 }
 
 .footer-contact {
-  grid-column: span 4; /* Makes it full-width across all columns */
+  grid-column: span 4;
   margin-bottom: 10px;
   font-weight: bold;
 }
@@ -50,7 +50,7 @@
 .footer-links {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 15px 30px; /* bigger spacing */
+  gap: 15px 30px;
   max-width: 1000px;
   margin: 0 auto 30px;
   text-align: left;

@@ -8,6 +8,7 @@ function Hero() {
         <h1>Unlimited movies, TV shows and more</h1>
         <h2>Starts at ₹149. Cancel anytime.</h2>
         <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <div className="hero-form">
         <input
         type="email"
         id="email"
@@ -16,6 +17,7 @@ function Hero() {
         autoComplete="email" />
         <button>Get Started</button>
       </div>
+    </div>
     </section>
   );
 }
