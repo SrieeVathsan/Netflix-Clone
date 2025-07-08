@@ -40,7 +40,7 @@
 }
 
 .trending-list::-webkit-scrollbar {
-  display: none;                 /* Chrome, Safari */
+  display: none;
 }
 
 .trending-item {

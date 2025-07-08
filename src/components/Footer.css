@@ -1,11 +1,74 @@
 .footer {
   background-color: #111;
-  padding: 20px;
+  padding: 60px 20px; /* increased from 40px */
+  color: #aaa;
   text-align: center;
-  font-size: 0.9rem;
-  color: #ccc;
 }
 
-.footer p {
-  margin: 5px 0;
+.footer-signup {
+  margin-bottom: 50px; /* increased */
+}
+
+.footer-heading {
+  font-size: 1.6rem; /* increased from 1.2rem */
+  margin-bottom: 25px;
+  color: white;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer-form input {
+  padding: 16px;
+  width: 300px; /* wider */
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.footer-form button {
+  padding: 16px 24px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.footer-contact {
+  grid-column: span 4; /* Makes it full-width across all columns */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px 30px; /* bigger spacing */
+  max-width: 1000px;
+  margin: 0 auto 30px;
+  text-align: left;
+}
+
+.footer-links a,
+.footer-contact {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-end {
+  font-size: 1.2rem;
+  color: #ffff;
+  margin-top: 20px;
 }

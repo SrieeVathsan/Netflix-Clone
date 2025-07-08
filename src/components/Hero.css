@@ -1,4 +1,5 @@
 .hero {
+  height: 60vh;
   background-image: url('/public/netflix.jpg');
   background-size: cover;
   background-position: center;
@@ -7,6 +8,10 @@
   text-align: center;
   color: white;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero::before {
@@ -17,7 +22,58 @@
   z-index: 0;
 }
 
-.hero * {
+.hero-content {
   position: relative;
   z-index: 1;
+  max-width: 700px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero-content input {
+  padding: 16px;
+  width: 300px; /* wider */
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.hero-content button {
+  padding: 16px 24px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .hero-content h2 {
+    font-size: 1.2rem;
+  }
+  .hero-content input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .hero-content button {
+    width: 100%;
+  }
 }
